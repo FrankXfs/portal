@@ -1,0 +1,140 @@
+{
+  "selected_head_menu_key":"m002",
+  "selected_menu_item_key":"m001001001",
+  "menus":[
+            {
+              "key": "m001",
+              "title": "首页",
+              "icon": "home",
+              "type": "head_menu_item",
+              "link": "",
+              "sider": [
+                {
+                  "key": "m001001",
+                  "title": "首页001",
+                  "icon": "desktop",
+                  "type": "side_menu",
+                  "link": "",
+                  "children": [
+                    {
+                      "key": "m001001001",
+                      "title": "首页001001",
+                      "icon": "",
+                      "type": "side_menu_item",
+                      "link": ""
+                    },
+                    {
+                      "key": "m001001002",
+                      "title": "首页001002",
+                      "icon": "",
+                      "type": "side_menu_item",
+                      "link": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "m001002",
+                  "title": "首页002",
+                  "icon": "pie-chart",
+                  "type": "side_menu",
+                  "link": "",
+                  "children": [
+                    {
+                      "key": "m001002001",
+                      "title": "首页002001",
+                      "icon": "",
+                      "type": "side_menu_item",
+                      "link": ""
+                    },
+                    {
+                      "key": "m001002002",
+                      "title": "首页002002",
+                      "icon": "",
+                      "type": "side_menu_item",
+                      "link": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "m001003",
+                  "title": "首页003",
+                  "icon": "file",
+                  "type": "side_menu",
+                  "link": ""
+                }
+              ]
+            },
+            {
+              "key": "m002",
+              "title": "用户管理",
+              "icon": "user",
+              "type": "head_menu_item",
+              "link": "",
+              "sider": [
+                {
+                  "key": "m002001",
+                  "title": "用户信息管理",
+                  "icon": "desktop",
+                  "type": "side_menu",
+                  "link": "",
+                  "children": [
+                    {
+                      "key": "m002001001",
+                      "title": "添加用户",
+                      "icon": "",
+                      "type": "side_menu_item",
+                      "link": ""
+                    },
+                    {
+                      "key": "m002001002",
+                      "title": "修改用户",
+                      "icon": "",
+                      "type": "side_menu_item",
+                      "link": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "m002002",
+                  "title": "用户权限管理",
+                  "icon": "pie-chart",
+                  "type": "side_menu",
+                  "link": "",
+                  "children": [
+                    {
+                      "key": "m002002001",
+                      "title": "权限维护",
+                      "icon": "",
+                      "type": "side_menu_item",
+                      "link": ""
+                    },
+                    {
+                      "key": "m002002002",
+                      "title": "权限添加",
+                      "icon": "",
+                      "type": "side_menu_item",
+                      "link": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "m003",
+              "title": "菜单管理",
+               "icon":"pie-chart",
+              "type": "head_menu_item",
+              "link": "",
+              "sider": [
+                {
+                  "key": "m003001",
+                  "title": "菜单维护",
+                  "icon": "desktop",
+                  "type": "side_menu",
+                  "link": ""
+                }
+              ]
+            }
+        ]
+}
+

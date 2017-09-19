@@ -1,0 +1,203 @@
+{
+  "user": [
+    {
+      "id": 10000,
+      "name": "一韬",
+      "age": 25,
+      "gender": "male"
+    },
+    {
+      "id": 10001,
+      "name": "张三",
+      "age": 30,
+      "gender": "female"
+    }
+  ],
+  "book": [
+    {
+      "id": 10000,
+      "name": "JavaScript从入门到精通",
+      "price": 9990,
+      "owner_id": 10000
+    },
+    {
+      "id": 10001,
+      "name": "Java从入门到放弃",
+      "price": 1990,
+      "owner_id": 10001
+    }
+  ],
+  "menu": [
+    {
+      "key": "m001",
+      "title": "首页",
+      "icon": "home",
+      "link": "",
+      "parentkey": "",
+      "type": "head_menu_item",
+      "id": "m001"
+    },
+    {
+      "key": "m001001",
+      "title": "新闻",
+      "icon": "desktop",
+      "link": "#",
+      "parentkey": "m001",
+      "type": "side_menu",
+      "id": "m001001"
+    },
+    {
+      "id": "m001001001",
+      "key": "m001001001",
+      "title": "首页001001",
+      "icon": "",
+      "type": "side_menu_item",
+      "link": "#",
+      "parentkey": "m001001"
+    },
+    {
+      "id": "m001001002",
+      "key": "m001001002",
+      "title": "首页001002",
+      "icon": "",
+      "type": "side_menu_item",
+      "link": "",
+      "parentkey": "m001001"
+    },
+    {
+      "key": "m001002",
+      "title": "通知",
+      "icon": "pie-chart",
+      "link": "",
+      "parentkey": "m001",
+      "type": "side_menu",
+      "id": "m001002"
+    },
+    {
+      "id": "m001002001",
+      "key": "m001002001",
+      "title": "首页002001",
+      "icon": "",
+      "type": "side_menu_item",
+      "link": "",
+      "parentkey": "m001002"
+    },
+    {
+      "id": "m001002002",
+      "key": "m001002002",
+      "title": "首页002002",
+      "icon": "",
+      "type": "side_menu_item",
+      "link": "",
+      "parentkey": "m001002"
+    },
+    {
+      "id": "m001003",
+      "key": "m001003",
+      "title": "首页003",
+      "icon": "file",
+      "type": "side_menu",
+      "link": "/",
+      "parentkey": "m001"
+    },
+    {
+      "id": "m002",
+      "key": "m002",
+      "title": "用户管理",
+      "icon": "user",
+      "type": "head_menu_item",
+      "link": "",
+      "parentkey": ""
+    },
+    {
+      "id": "m002001",
+      "key": "m002001",
+      "title": "用户信息管理",
+      "icon": "desktop",
+      "type": "side_menu",
+      "link": "",
+      "parentkey": "m002"
+    },
+    {
+      "id": "m002001001",
+      "key": "m002001001",
+      "title": "添加用户",
+      "icon": "",
+      "type": "side_menu_item",
+      "link": "",
+      "parentkey": "m002001"
+    },
+    {
+      "id": "m002001002",
+      "key": "m002001002",
+      "title": "修改用户",
+      "icon": "",
+      "type": "side_menu_item",
+      "link": "",
+      "parentkey": "m002001"
+    },
+    {
+      "id": "m002002",
+      "key": "m002002",
+      "title": "用户权限管理",
+      "icon": "pie-chart",
+      "type": "side_menu",
+      "link": "",
+      "parentkey": "m002"
+    },
+    {
+      "id": "m002002001",
+      "key": "m002002001",
+      "title": "权限维护",
+      "icon": "",
+      "type": "side_menu_item",
+      "link": "",
+      "parentkey": "m002002"
+    },
+    {
+      "id": "m002002002",
+      "key": "m002002002",
+      "title": "权限添加",
+      "icon": "",
+      "type": "side_menu_item",
+      "link": "",
+      "parentkey": "m002002"
+    },
+    {
+      "id": "m003",
+      "key": "m003",
+      "title": "菜单管理",
+      "icon": "pie-chart",
+      "type": "head_menu_item",
+      "link": "/menu/list",
+      "parentkey": ""
+    },
+    {
+      "id": "m003001",
+      "key": "m003001",
+      "title": "菜单维护",
+      "icon": "desktop",
+      "type": "side_menu",
+      "link": "/menu/list",
+      "parentkey": "m003"
+    },
+    {
+      "id": "m003002",
+      "key": "m003002",
+      "title": "菜单查看",
+      "icon": "file",
+      "type": "side_menu",
+      "link": "",
+      "parentkey": "m003"
+    },
+    {
+      "id": "m003002001",
+      "key": "m003002001",
+      "title": "菜单查看1",
+      "icon": "file",
+      "type": "side_menu_item",
+      "link": "",
+      "parentkey": "m003002"
+    }
+  ]
+}
